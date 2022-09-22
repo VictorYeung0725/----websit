@@ -67,7 +67,7 @@
   background-image: url(./img/victor/Victor.webp);
   background-repeat: no-repeat;
   background-size: 100px;
-  width:auto;
+  width:100px;
   position: absolute;
   top:60%;
   left:48%;
@@ -77,6 +77,7 @@
   background-image: url(./img/victor/Victor.webp);
   background-repeat: no-repeat;
   background-size: 100px;
+  width:100px;
   position: absolute;
   top:32%;
   left:60%;
