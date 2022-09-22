@@ -67,6 +67,7 @@
   background-image: url(./img/victor/Victor.webp);
   background-repeat: no-repeat;
   background-size: 100px;
+  width:auto;
   position: absolute;
   top:60%;
   left:48%;
