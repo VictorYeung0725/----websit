@@ -87,4 +87,8 @@
   background-image: url(./img/victor/Victor.webp);
   background-repeat: no-repeat;
   background-size: 100px;
+  position: absolute;
+  text-align: left;
+  top:20%;
+  left:20%;
 }
