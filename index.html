@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Kirby dream</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="icon" href="./img/favicon.ico" />
   </head>
@@ -12,6 +12,14 @@
     
     <div class="background">
       <h1 class="header">星之卡比帶你去旅行～～～</h1>
+
+      <!-- for audio auto play and hide it  -->
+
+      <iframe src="./Kirby_bgm.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+      <audio id="player" autoplay loop>
+        <source src="audio/source.mp3" type="audio/mp3">
+      </audio>
+
       <div class="vic" id="sound1">
         <a href="./victor/victorpage.html" id="sound1"
           ><img src="./img/v.png" 
