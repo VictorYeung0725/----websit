@@ -73,6 +73,13 @@
     padding: 80px;
   }
 
+.icon{
+    width: 80px;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+}
+
 
   .footer{
     display:flex;
