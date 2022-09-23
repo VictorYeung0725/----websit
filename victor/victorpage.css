@@ -1,4 +1,9 @@
-
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-size: 24px;
+}
 .rectangle {
     position: fixed;
     top: 0px;
@@ -6,29 +11,28 @@
     width: 1800px;
     height: 100px;
     background: #79BDAE;
+    background-color: #204A5F;
     color: aliceblue;
     font-size: 40px;
     font-weight: bold;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    line-height: 60px;
+    display:flex;
+    justify-content: space-around;
+
     }
 
 .container{
     display:flex;
-    flex-direction: column;
+    flex-direction: flex;
     justify-content: space-between;
+
 }
 
+.main {
+    background-color: #F1F1F1;
 
+}
 
-
-.div01{
-    width: 40%;
-    /* width: 500px;
-    height: 100px; */
-     }
 
 .location{
     color: #F1918E;
@@ -38,21 +42,24 @@
 }     
 
 .op{
-    width: 40%;
     color: #F1918E;
     font-size: 15px;
     padding-left: 80px;
 }     
 
 .paragraph{
-    width: 40%;
     color: #989999;
     font-size: 18px;
     padding-left: 80px;
 }
 
 .photo{
-    
-    float:right; /* 圖片在右邊 */
     padding: 80px;
+  }
+
+
+  .footer{
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
   }
