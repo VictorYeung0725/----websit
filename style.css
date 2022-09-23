@@ -1,94 +1,53 @@
 *{
-  padding: 0%;
-  margin: 0%;
-  width:100%;
-  height:100vh;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
 }
 
-  /* 這個是google map responsive 屬性設定 */
-/* .map-responsive{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-}
 
-.map-responsive iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
-} */
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./banner-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    position:relative;
+  }
 
-/*  錯誤版本 try another method😭
-.header {
-  width:100%;
-  height: 100%;
-  background-image: url(./img/日本.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  text-align: center;
-  color: aqua;
-}
+/*icon-part*/
+  .momo{
+    background-size: 100px;
+    width:100px;
+    position: absolute;
+    top:32%;
+    left:60%;
+  }
 
-.victor{
-  background-image: url(./img/Victor.webp);
-  background-repeat: no-repeat;
-  background-size: 150px;
-  background-position: 20% 60%;
-  display: fixed;
-  top: 100px;
-  left: 100px;
-  z-index: 99;
-} */
+  .momo:hover{
+      transform: scale(0.85);
+    }
 
-/* .cecilia{
+  .vic{
+    background-size: 100px;
+    width:110px;
+    position: absolute;
+    top:60%;
+    left:48%;
+  }
 
-}
-.morris{
-
-} */
-
-
-.map{
-  width:100%;
-  height: 100%;
-  background-image: url(./img/日本.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  text-align: center;
-  position:relative;
-}
-
-.victor-icon{
-  background-image: url(./img/victor/Victor.webp);
-  background-repeat: no-repeat;
-  background-size: 100px;
-  width:100px;
-  position: absolute;
-  top:60%;
-  left:48%;
-}
-
-.morris-icon{
-  background-image: url(./img/victor/Victor.webp);
-  background-repeat: no-repeat;
-  background-size: 100px;
-  width:100px;
-  position: absolute;
-  top:32%;
-  left:60%;
-}
-
-.cecilia-icon{
-  background-image: url(./img/victor/Victor.webp);
-  background-repeat: no-repeat;
-  background-size: 100px;
-  position: absolute;
-  text-align: left;
-  top:20%;
-  left:20%;
-}
+  .vic:hover{
+    transform: scale(0.85);
+  }
+  .ceci{
+    background-size: 100px;
+    width:100px;
+    position: absolute;
+    top:20%;
+    left:20%;
+  }
+  .ceci:hover{
+    transform: scale(0.85);
+  }
+  /*icon-part*/
