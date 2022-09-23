@@ -1,23 +1,35 @@
-.bg{
-   
-    background-image: url(./img/banner-01.png);
-   
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./banner-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    position:relative;
   }
 
 /*icon-part*/
-.momo{
-  background-size: 100px;
-  width:100px;
-  position: absolute;
-  top:32%;
-  left:60%;
-}
-
-.momo:hover{
-    transform: scale(0.85);
+  .momo{
+    background-size: 100px;
+    width:100px;
+    position: absolute;
+    top:32%;
+    left:60%;
   }
 
-.vic{
+  .momo:hover{
+      transform: scale(0.85);
+    }
+
+  .vic{
     background-size: 100px;
     width:110px;
     position: absolute;
