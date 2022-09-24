@@ -71,6 +71,7 @@
 
 .photo{
     padding: 80px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
   }
 
   .footer{
