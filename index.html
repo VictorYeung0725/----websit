@@ -14,9 +14,28 @@
       <h1 class="header">星之卡比帶你去旅行～～～</h1>
 
       <!-- for audio auto play and hide it  -->
+
+      <div class="bg-music-group">
+        <audio
+          autoplay
+          controls="controls"
+          loop
+          preload="auto"
+          src="./Kirby_bgm.mp3"
+          class="bg-music"
+        >
+          your browser is not supported
+        </audio>
+
+        <div class="bg-music-control music-play">
+          <i class="fas fa-volume-up"></i>
+          <!-- <i class="fas fa-volume-mute"></i> -->
+        </div>
+
+<!--         Testing for another method
       <audio controls autoplay>
         <source src="./Kirby_bgm.mp3" type="audio/mp3">
-      </audio>
+      </audio> -->
 
 
 
@@ -57,6 +76,11 @@
       soundOne.addEventListener('click',playsound);
 
     </script> -->
+    <script
+    src="https://kit.fontawesome.com/ea4456f54e.js"
+    crossorigin="anonymous">
+    </script>
+    
   </body>
 </html>
 
