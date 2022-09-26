@@ -34,6 +34,9 @@
 .rectangle div a{
     color: white;
 }
+.rectangle div a:hover{
+    color: blueviolet;
+}
 
 /* main part */
 .container{
