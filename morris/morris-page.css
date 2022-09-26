@@ -4,18 +4,21 @@
     box-sizing: border-box;
     font-size: 24px;
 }
-.rectangle {
+
+/* header  */
+
+    .rectangle {
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100vw;
-    height: 100px;
+    height: 60px;
     background: #79BDAE;
     background-color: #204A5F;
     color: aliceblue;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bold;
-    line-height: 100px;
+    line-height: 60px;
     display:flex;
     justify-content: space-between;
 }
@@ -28,55 +31,78 @@
     padding-right: 50px;
 }
 
+.rectangle div a{
+    color: white;
+}
 
+/* main part */
 .container{
-    display:flex;
-    flex-direction: flex;
-    justify-content: space-between;
-    padding-top: 100px;
-
-}
-
-.main {
-    padding: 80px;
+    width: 90%;
+    height: 548px;
     margin: 0 auto;
+    margin-top: 10%;
+    /* border: 5px solid green; */
+    display:flex;
+    justify-content:space-around;
+}
+
+.container li{
+    list-style: none;
+}
+
+.main{
+    /* border: 2px solid black; */
+    margin: 1rem 0 1rem 0.5rem ;
     width:50%;
+    padding: 2.5rem 0 2.5rem 1rem;
+    background-color: #F1F1F1
+
 }
 
-.pColor {
-    background-color: #F1F1F1;
-}
-
-
-.location{
+.main h2{
+    /* text-align: center; */
     color: #F1918E;
-    font-size: 90px;
+    font-size: 3.75rem;
     font-weight: bold;
-    /* padding-left: 80px; */
-}     
+    margin-bottom: 1rem;
+    
+}
 
 .op{
     color: #F1918E;
     font-size: 15px;
-    /* padding-left: 80px; */
     display: inline-block;
+    margin-bottom: 1rem;
 }     
 
 .paragraph{
     color: #989999;
     font-size: 18px;
-    /* padding-left: 80px; */
     display: inline-block;
 }
 
-.photo{
-    padding: 80px;
-  }
+    /* photo */
 
-  .footer{
+#photo{
+    padding: 2rem;
+    /* border: 5px solid red; */
+    width: 50%;
+    height: 600px;
+    margin: 1rem 0;
+}
+
+img{
+    max-width:auto;
+    height:400px;
+}
+
+/* footer */
+.footer{
+    /* border: 5px solid blue; */
     display:flex;
     justify-content: space-between;
     margin: 0 auto;
+    margin-top: 2rem;
   }
 
   #left{
