@@ -97,6 +97,7 @@
 }
 
 img{
+    scale: 125%;
     max-width:auto;
     height:400px;
 }
