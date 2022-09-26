@@ -84,3 +84,23 @@
   /* .bg-music {
     display: none;
   } */
+
+
+/* for animation */
+#noodles{
+  position: fixed;
+  top: 60%;
+  left:0%;
+}
+
+#Onigiri {
+  position: fixed;
+  top:35%;
+  right:5%;
+}
+
+#hero{
+  position: fixed;
+  top:65%;
+  right:5%;
+}
