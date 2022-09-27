@@ -126,9 +126,6 @@ img{
     position: absolute;
     top:65%;
     right:38%;
-    transform: rotate(330deg);
-
-    /* object-fit: cover;??? */
   }
 
   #v:hover{
