@@ -12,6 +12,13 @@
     margin: 0%;
     box-sizing: border-box;
   }
+
+  .photo-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .grid-conainer{
     width: 90%;
     height: 80vh;
@@ -21,31 +28,43 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
   }
+
+  .cel{
+    display: grid;
+    border: 2px solid yellow;
+  }
+
   .cel img{
-    width: 150px;
+    width: 250px;
     height: auto;
+  }
+
+  .b{
+    grid-area: 2 / 2 / span 3 / span 3;
   }
 
 </style>
 
 <body>
-  <div class="grid-container">
-    <div class="cel"><img src="./discover-more/pexels-evgeny-tchebotarev-2187606.jpg" alt=""></div>
-    <div class="cel"><img src="./discover-more/pexels-haugenzhays-zhang-1798631.jpg" alt=""></div>
-    <div class="cel"><img src="./discover-more/pexels-janko-ferlic-590478.jpg" alt=""></div>
-    <div class="cel"><img src="./discover-more/pexels-nien-tran-dinh-1654748.jpg" alt=""></div>
-    <div class="cel"><img src="./discover-more/pexels-pixabay-161251.jpg" alt=""></div>
-    <div class="cel"><img src="./discover-more/pexels-pixabay-248195.jpg" alt=""></div>
-    <div class="cel"><img src="./discover-more/pexels-satoshi-hirayama-1325837.jpg" alt=""></div>
-    <div class="cel"><img src="./discover-more/pexels-邱-韬-356269.jpg" alt=""></div>
-    <div class="cel"></div>
-    <div class="cel"></div>
-    <div class="cel"></div>
-    <div class="cel"></div>
-    <div class="cel"></div>
-    <div class="cel"></div>
-    <div class="cel"></div>
-    <div class="cel"></div>
+  <div class="photo-gallery">
+    <div class="grid-container">
+      <div class="cel a"><img src="./discover-more/pexels-evgeny-tchebotarev-2187606.jpg" alt=""></div>
+      <div class="cel b"><img src="./discover-more/pexels-haugenzhays-zhang-1798631.jpg" alt=""></div>
+      <div class="cel"><img src="./discover-more/pexels-janko-ferlic-590478.jpg" alt=""></div>
+      <div class="cel"><img src="./discover-more/pexels-nien-tran-dinh-1654748.jpg" alt=""></div>
+      <div class="cel"><img src="./discover-more/pexels-pixabay-161251.jpg" alt=""></div>
+      <div class="cel"><img src="./discover-more/pexels-pixabay-248195.jpg" alt=""></div>
+      <div class="cel"><img src="./discover-more/pexels-satoshi-hirayama-1325837.jpg" alt=""></div>
+      <div class="cel"><img src="./discover-more/pexels-邱-韬-356269.jpg" alt=""></div>
+      <div class="cel"></div>
+      <div class="cel"></div>
+      <div class="cel"></div>
+      <div class="cel"></div>
+      <div class="cel"></div>
+      <div class="cel"></div>
+      <div class="cel"></div>
+      <div class="cel"></div>
+    </div>
   </div>
 </body>
 </html>
