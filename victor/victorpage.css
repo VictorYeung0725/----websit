@@ -131,6 +131,6 @@ img{
     /* object-fit: cover;??? */
   }
 
-  #v{
+  #v:hover{
     transform: rotate(330deg);
   }
