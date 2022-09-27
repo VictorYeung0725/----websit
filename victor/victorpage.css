@@ -118,3 +118,19 @@ img{
   #right{
     padding-right: 10%;
   }
+
+  /* hero position */
+  #v{
+    width:100px;
+    height: auto;
+    position: absolute;
+    top:65%;
+    right:38%;
+    transform: rotate(330deg);
+
+    /* object-fit: cover;??? */
+  }
+
+  #v{
+    transform: rotate(330deg);
+  }

@@ -117,3 +117,19 @@ img{
 #right{
   padding-right: 10%;
 }
+
+  /* hero position */
+  #c{
+    width:100px;
+    height: auto;
+    position: absolute;
+    top:70%;
+    right:38%;
+
+    /* object-fit: cover;??? */
+  }
+
+  #c:hover{
+    transform: rotate(330deg);
+  }
+

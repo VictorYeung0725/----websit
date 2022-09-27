@@ -116,3 +116,16 @@ img{
   #right{
     padding-right: 10%;
   }
+
+  #m{
+        width:100px;
+        height: auto;
+        position: absolute;
+        top:70%;
+        right:38%;
+        /* object-fit: cover;??? */
+  }
+
+  #m:hover{
+    transform: rotate(330deg); 
+  }
