@@ -123,10 +123,9 @@ img{
     width:100px;
     height: auto;
     position: absolute;
-    top:70%;
-    right:38%;
-
-    /* object-fit: cover;??? */
+    top:65%;
+    right:30%;
+    z-index: 99;
   }
 
   #c:hover{

@@ -117,15 +117,17 @@ img{
     padding-right: 10%;
   }
 
+
+
   #m{
-        width:100px;
-        height: auto;
-        position: absolute;
-        top:70%;
-        right:38%;
-        /* object-fit: cover;??? */
+    width:100px;
+    height: auto;
+    position: absolute;
+    top:65%;
+    right:30%;
+    z-index: 99;
   }
 
   #m:hover{
-    transform: rotate(330deg); 
+    transform: rotate(330deg);
   }
